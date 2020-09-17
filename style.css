@@ -1,0 +1,189 @@
+*{
+	margin: 1px;
+	padding: 0;
+	font-family: Century Gothic;
+}
+div.main{
+	position:static;
+	border-bottom: 3px solid white;
+	background-color: rgb(18,23,22);
+	width: 100%;
+	height: 80px;
+	margin-right: 20px;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("uporer image.jpg");
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+	width:100%;
+	
+	 background-position: 0px 50px;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 12px;
+	
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.8s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li ul li{
+	display:none;
+	list-style-type: none;
+
+}
+ul li:hover ul li{
+	display: block;
+	margin-top: 15px;
+
+}
+.logo img{
+	float: left;
+	width: 170px;
+	height: auto;
+	margin-top: 8px;
+	margin-left: 30px;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+p{
+	font-size: 70px;
+	margin-left: 550px;
+}
+.shirt{
+	display: block;
+	float: left;
+	width: 32%;
+	padding: 5px;
+	margin-top:20px;
+	transition:1s;
+	
+}
+div.butn{
+	
+	width: 184px;
+	height: 40px;
+	margin-left:100px;
+	margin-top:20px;
+	border: 1px solid #3498db;
+	background: blue;
+}
+div.btn{
+	
+	width: 108px;
+	height: 40px;
+	margin-left:135px;
+	margin-top:20px;
+	border: 1px solid #3498db;
+	background: blue;
+}
+div.login{
+	position: absolute;
+	top: 73%;
+	width:200px;
+	transform: translate(-50%,-50%);
+	margin-left:1225px;
+}
+
+.login{
+  border: 3px solid white;
+}
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+  span.psw {
+     display: block;
+     float: none;
+     background-color:white;
+  }
+  
+
+span.psw {
+  float: right;
+  
+}
+.loginbtn {
+     width: 100%;
+}
+.viewcartbtn {
+     margin-top:410px;
+     margin-left:13px;
+     border: 2px solid blue;
+	
+}
+.pant{
+	display: block;
+	float: left;
+	width: 32%;
+	padding: 7px;
+	margin-top:20px;
+	transition:1s;
+	
+}
+.tshirt{
+	display: block;
+	float: left;
+	width: 32%;
+	padding: 7.5px;
+	margin-top:20px;
+	transition:1s;
+	
+}
+.salwar{
+	display: block;
+	float: left;
+	width: 32%;
+	padding: 7.95px;
+	margin-top:20px;
+	transition:1s;
+	
+}
+.shari{
+	display: block;
+	float: left;
+	width: 32%;
+	padding: 7.95px;
+	margin-top:20px;
+	transition:1s;
+	
+}
+.kurta{
+	display: block;
+	float: left;
+	width: 32%;
+	padding: 7.95px;
+	margin-top:20px;
+	transition:1s;
+	
+}
+.end{
+	margin-left: 450px;
+}
